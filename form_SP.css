@@ -1,0 +1,79 @@
+ label {
+     line-height: 1.5;
+
+ }
+
+ span {
+     display: inline-block;
+     width: 140px;
+ }
+
+ input {
+     width: 300px;
+ }
+
+ h1 {
+     text-align: center;
+     padding-bottom: 20px;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f9f9f9;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     margin-top: -80px;
+ }
+
+ .container {
+     border: 3px solid rgba(86, 146, 231, 0.822);
+     margin-top: 550px;
+     padding: 20px;
+ }
+
+ #tbl {
+     width: 601px;
+     border-spacing: 0;
+     /* để giữa các chữ no product name khoong có khoảng cách */
+ }
+
+ #tbl tr {
+     height: 27px;
+
+ }
+
+ #tbl tr th,
+ #tbl tr td {
+     text-align: left;
+     /* để cho nó canh giữ nếu không canh giữa nó sẽ chạy lộn xộn */
+     border: none;
+ }
+
+ #tbl tr:last-child th {
+     border-top: 1px solid #ccc;
+     /* Border chỉ cho hàng tổng */
+ }
+
+ button:hover {
+     background-color: black;
+     color: white;
+     border: 3px solid #bbb;
+ }
+
+ thead {
+     background-color: rgb(34, 32, 32);
+     color: white;
+     border: none;
+ }
+
+ .small-container {
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+ }
+
+ h2 {
+     text-align: center;
+ }

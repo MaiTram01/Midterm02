@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="form_SP.css">
+    <script src="form_SP.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Thời trang nữ</h1>
+        <form action="" name="frm">
+            <label>
+                <span>Image of product:</span>
+                <input type="text" id="image" name="image" />
+            </label>
+            <br>
+            <br>
+            <label>
+                <span>Product Name:</span>
+                <input type="text" id="name" name="name" />
+            </label>
+            <br>
+            <br>
+            <label>
+                <span>New Price</span>
+                <input type="number" id="Nprice" name="Nprice" />
+            </label>
+            <br>
+            <br>
+            <label>
+                <span>Old Price</span>
+                <input type="number" id="Oprice" name="Oprice" />
+            </label>
+            <br>
+            <br>
+            <label>
+                <span>Type:</span>
+                <input type="text" id="type" name="type" />
+            </label>
+            <br>
+            <br>
+            <label>
+                <span>Product code:</span>
+                <input type="text" id="pcode" name="pcode" />
+            </label>
+            <br>
+            <br>
+            <button type="button" onclick="sell()">Add</button>
+        </form>
+        <div class="mt-3">
+            <h2>Thời trang nữ</h2>
+            <div class="small-container">
+                <div class="card" style="width:300px">
+                    <img class="card-img-top"
+                        src="https://bizweb.dktcdn.net/thumb/1024x1024/100/119/564/products/ao-khoac-nu-han-quoc-2819.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Quần jean nữ - <span>KO0002</span></h4>
+                        <p class="card-text">269.000 vnd <del>370.000 vnd</del></p>
+                        <a href="#" class="btn btn-danger">Đặt mua</a>
+                    </div>
+                </div>
+                <div class="card" style="width:300px">
+                    <img class="card-img-top"
+                        src="https://bizweb.dktcdn.net/thumb/1024x1024/100/119/564/products/ao-khoac-nu-han-quoc-2819.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Áo khoác nữ - <span>VN0002</span></h4>
+                        <p class="card-text">249.000 vnd <del>369.000 vnd</del></p>
+                        <a href="#" class="btn btn-danger">Đặt mua</a>
+                    </div>
+                </div>
+                <div class="card" style="width:300px">
+                    <img class="card-img-top"
+                        src="https://bizweb.dktcdn.net/thumb/1024x1024/100/119/564/products/ao-khoac-nu-han-quoc-2819.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Áo phông nữ - <span>US0002</span></h4>
+                        <p class="card-text">159.000 vnd <del>390.000 vnd</del></p>
+                        <a href="#" class="btn btn-danger">Đặt mua</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
